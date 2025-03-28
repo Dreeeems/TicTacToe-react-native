@@ -4,7 +4,7 @@ import Board from './components/board';
 
 export default function App() {
   return (<View style={styles.container}>
-    <Board/>
+    <Board size={3}/>
   </View>
     
   );

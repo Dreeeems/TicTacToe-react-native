@@ -1,6 +1,6 @@
 import { View,Text,StyleSheet } from "react-native"
 
-const Cell = ()=><View style={styles.container}><Text>X</Text></View>
+const Cell = ({value})=><View style={styles.container}><Text>{value === -1 ?"" : value === 0 ? "O":"X" }</Text></View>
 
 
 const styles = StyleSheet.create({
